@@ -41,12 +41,12 @@ public class MyLinkedList <T>
 
     public String toString()
     {
-        String result = "[ ";
+        String result = "[";
         Node <T> ptr = head;
         
         if (head == null)
         {
-            result = "[ ]";
+            result = "[]";
         }
         else
         {
@@ -62,7 +62,7 @@ public class MyLinkedList <T>
 
             }
 
-            result += " ]";
+            result += "]";
 
         }
         
